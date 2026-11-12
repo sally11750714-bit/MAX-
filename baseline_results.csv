@@ -1,0 +1,6 @@
+
+Category,Train,Validation,Test,AUROC
+Carpet,224,56,117,0.9803
+Bottle,167,42,83,0.9857
+Hazelnut,312,79,110,0.9907
+Mean,,,,0.9856
