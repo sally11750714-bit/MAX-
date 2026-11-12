@@ -1,0 +1,565 @@
+{
+  "category": "hazelnut",
+  "model": "WideResNet50_2",
+  "method": "PatchCore-style random memory baseline",
+  "image_size": 224,
+  "seed": 42,
+  "train_count": 312,
+  "validation_count": 79,
+  "test_count": 110,
+  "memory_size": 1024,
+  "validation_threshold": 5.738595962524415,
+  "test_auroc": 0.9907142857142858,
+  "test_samples": [
+    {
+      "path": "data/hazelnut/test/crack/000.png",
+      "label": 1,
+      "anomaly_score": 5.900967597961426
+    },
+    {
+      "path": "data/hazelnut/test/crack/001.png",
+      "label": 1,
+      "anomaly_score": 5.747690200805664
+    },
+    {
+      "path": "data/hazelnut/test/crack/002.png",
+      "label": 1,
+      "anomaly_score": 5.7901787757873535
+    },
+    {
+      "path": "data/hazelnut/test/crack/003.png",
+      "label": 1,
+      "anomaly_score": 5.411530017852783
+    },
+    {
+      "path": "data/hazelnut/test/crack/004.png",
+      "label": 1,
+      "anomaly_score": 5.755001544952393
+    },
+    {
+      "path": "data/hazelnut/test/crack/005.png",
+      "label": 1,
+      "anomaly_score": 6.316659927368164
+    },
+    {
+      "path": "data/hazelnut/test/crack/006.png",
+      "label": 1,
+      "anomaly_score": 5.886965751647949
+    },
+    {
+      "path": "data/hazelnut/test/crack/007.png",
+      "label": 1,
+      "anomaly_score": 5.994134426116943
+    },
+    {
+      "path": "data/hazelnut/test/crack/008.png",
+      "label": 1,
+      "anomaly_score": 5.991993427276611
+    },
+    {
+      "path": "data/hazelnut/test/crack/009.png",
+      "label": 1,
+      "anomaly_score": 6.3522114753723145
+    },
+    {
+      "path": "data/hazelnut/test/crack/010.png",
+      "label": 1,
+      "anomaly_score": 6.342505931854248
+    },
+    {
+      "path": "data/hazelnut/test/crack/011.png",
+      "label": 1,
+      "anomaly_score": 5.796212673187256
+    },
+    {
+      "path": "data/hazelnut/test/crack/012.png",
+      "label": 1,
+      "anomaly_score": 5.675251007080078
+    },
+    {
+      "path": "data/hazelnut/test/crack/013.png",
+      "label": 1,
+      "anomaly_score": 5.696599006652832
+    },
+    {
+      "path": "data/hazelnut/test/crack/014.png",
+      "label": 1,
+      "anomaly_score": 5.638385772705078
+    },
+    {
+      "path": "data/hazelnut/test/crack/015.png",
+      "label": 1,
+      "anomaly_score": 5.907774925231934
+    },
+    {
+      "path": "data/hazelnut/test/crack/016.png",
+      "label": 1,
+      "anomaly_score": 5.2927775382995605
+    },
+    {
+      "path": "data/hazelnut/test/crack/017.png",
+      "label": 1,
+      "anomaly_score": 6.006451606750488
+    },
+    {
+      "path": "data/hazelnut/test/cut/000.png",
+      "label": 1,
+      "anomaly_score": 6.325456142425537
+    },
+    {
+      "path": "data/hazelnut/test/cut/001.png",
+      "label": 1,
+      "anomaly_score": 5.518116474151611
+    },
+    {
+      "path": "data/hazelnut/test/cut/002.png",
+      "label": 1,
+      "anomaly_score": 5.729531764984131
+    },
+    {
+      "path": "data/hazelnut/test/cut/003.png",
+      "label": 1,
+      "anomaly_score": 5.835573196411133
+    },
+    {
+      "path": "data/hazelnut/test/cut/004.png",
+      "label": 1,
+      "anomaly_score": 6.484950065612793
+    },
+    {
+      "path": "data/hazelnut/test/cut/005.png",
+      "label": 1,
+      "anomaly_score": 6.1331892013549805
+    },
+    {
+      "path": "data/hazelnut/test/cut/006.png",
+      "label": 1,
+      "anomaly_score": 5.628890514373779
+    },
+    {
+      "path": "data/hazelnut/test/cut/007.png",
+      "label": 1,
+      "anomaly_score": 5.964176177978516
+    },
+    {
+      "path": "data/hazelnut/test/cut/008.png",
+      "label": 1,
+      "anomaly_score": 5.769871234893799
+    },
+    {
+      "path": "data/hazelnut/test/cut/009.png",
+      "label": 1,
+      "anomaly_score": 5.396544456481934
+    },
+    {
+      "path": "data/hazelnut/test/cut/010.png",
+      "label": 1,
+      "anomaly_score": 6.136386871337891
+    },
+    {
+      "path": "data/hazelnut/test/cut/011.png",
+      "label": 1,
+      "anomaly_score": 6.011280059814453
+    },
+    {
+      "path": "data/hazelnut/test/cut/012.png",
+      "label": 1,
+      "anomaly_score": 6.238959312438965
+    },
+    {
+      "path": "data/hazelnut/test/cut/013.png",
+      "label": 1,
+      "anomaly_score": 5.868640422821045
+    },
+    {
+      "path": "data/hazelnut/test/cut/014.png",
+      "label": 1,
+      "anomaly_score": 5.415861129760742
+    },
+    {
+      "path": "data/hazelnut/test/cut/015.png",
+      "label": 1,
+      "anomaly_score": 6.1961140632629395
+    },
+    {
+      "path": "data/hazelnut/test/cut/016.png",
+      "label": 1,
+      "anomaly_score": 5.944247245788574
+    },
+    {
+      "path": "data/hazelnut/test/good/000.png",
+      "label": 0,
+      "anomaly_score": 4.807568073272705
+    },
+    {
+      "path": "data/hazelnut/test/good/001.png",
+      "label": 0,
+      "anomaly_score": 5.8093156814575195
+    },
+    {
+      "path": "data/hazelnut/test/good/002.png",
+      "label": 0,
+      "anomaly_score": 5.268965721130371
+    },
+    {
+      "path": "data/hazelnut/test/good/003.png",
+      "label": 0,
+      "anomaly_score": 5.009486198425293
+    },
+    {
+      "path": "data/hazelnut/test/good/004.png",
+      "label": 0,
+      "anomaly_score": 4.86013126373291
+    },
+    {
+      "path": "data/hazelnut/test/good/005.png",
+      "label": 0,
+      "anomaly_score": 5.457604885101318
+    },
+    {
+      "path": "data/hazelnut/test/good/006.png",
+      "label": 0,
+      "anomaly_score": 4.673823833465576
+    },
+    {
+      "path": "data/hazelnut/test/good/007.png",
+      "label": 0,
+      "anomaly_score": 5.109139442443848
+    },
+    {
+      "path": "data/hazelnut/test/good/008.png",
+      "label": 0,
+      "anomaly_score": 5.206780433654785
+    },
+    {
+      "path": "data/hazelnut/test/good/009.png",
+      "label": 0,
+      "anomaly_score": 4.843052387237549
+    },
+    {
+      "path": "data/hazelnut/test/good/010.png",
+      "label": 0,
+      "anomaly_score": 5.098996162414551
+    },
+    {
+      "path": "data/hazelnut/test/good/011.png",
+      "label": 0,
+      "anomaly_score": 4.773434638977051
+    },
+    {
+      "path": "data/hazelnut/test/good/012.png",
+      "label": 0,
+      "anomaly_score": 5.087854385375977
+    },
+    {
+      "path": "data/hazelnut/test/good/013.png",
+      "label": 0,
+      "anomaly_score": 4.912252426147461
+    },
+    {
+      "path": "data/hazelnut/test/good/014.png",
+      "label": 0,
+      "anomaly_score": 4.7936577796936035
+    },
+    {
+      "path": "data/hazelnut/test/good/015.png",
+      "label": 0,
+      "anomaly_score": 4.917503833770752
+    },
+    {
+      "path": "data/hazelnut/test/good/016.png",
+      "label": 0,
+      "anomaly_score": 5.064728736877441
+    },
+    {
+      "path": "data/hazelnut/test/good/017.png",
+      "label": 0,
+      "anomaly_score": 4.822140216827393
+    },
+    {
+      "path": "data/hazelnut/test/good/018.png",
+      "label": 0,
+      "anomaly_score": 5.0472493171691895
+    },
+    {
+      "path": "data/hazelnut/test/good/019.png",
+      "label": 0,
+      "anomaly_score": 4.9130048751831055
+    },
+    {
+      "path": "data/hazelnut/test/good/020.png",
+      "label": 0,
+      "anomaly_score": 5.342466831207275
+    },
+    {
+      "path": "data/hazelnut/test/good/021.png",
+      "label": 0,
+      "anomaly_score": 5.182045936584473
+    },
+    {
+      "path": "data/hazelnut/test/good/022.png",
+      "label": 0,
+      "anomaly_score": 4.8732404708862305
+    },
+    {
+      "path": "data/hazelnut/test/good/023.png",
+      "label": 0,
+      "anomaly_score": 4.782614707946777
+    },
+    {
+      "path": "data/hazelnut/test/good/024.png",
+      "label": 0,
+      "anomaly_score": 4.893884181976318
+    },
+    {
+      "path": "data/hazelnut/test/good/025.png",
+      "label": 0,
+      "anomaly_score": 4.962404727935791
+    },
+    {
+      "path": "data/hazelnut/test/good/026.png",
+      "label": 0,
+      "anomaly_score": 4.83939790725708
+    },
+    {
+      "path": "data/hazelnut/test/good/027.png",
+      "label": 0,
+      "anomaly_score": 4.877748012542725
+    },
+    {
+      "path": "data/hazelnut/test/good/028.png",
+      "label": 0,
+      "anomaly_score": 4.862590789794922
+    },
+    {
+      "path": "data/hazelnut/test/good/029.png",
+      "label": 0,
+      "anomaly_score": 4.904583930969238
+    },
+    {
+      "path": "data/hazelnut/test/good/030.png",
+      "label": 0,
+      "anomaly_score": 5.227477073669434
+    },
+    {
+      "path": "data/hazelnut/test/good/031.png",
+      "label": 0,
+      "anomaly_score": 5.07310676574707
+    },
+    {
+      "path": "data/hazelnut/test/good/032.png",
+      "label": 0,
+      "anomaly_score": 4.923283100128174
+    },
+    {
+      "path": "data/hazelnut/test/good/033.png",
+      "label": 0,
+      "anomaly_score": 4.739320278167725
+    },
+    {
+      "path": "data/hazelnut/test/good/034.png",
+      "label": 0,
+      "anomaly_score": 4.886814117431641
+    },
+    {
+      "path": "data/hazelnut/test/good/035.png",
+      "label": 0,
+      "anomaly_score": 4.835968971252441
+    },
+    {
+      "path": "data/hazelnut/test/good/036.png",
+      "label": 0,
+      "anomaly_score": 5.385728359222412
+    },
+    {
+      "path": "data/hazelnut/test/good/037.png",
+      "label": 0,
+      "anomaly_score": 4.898565292358398
+    },
+    {
+      "path": "data/hazelnut/test/good/038.png",
+      "label": 0,
+      "anomaly_score": 4.617703437805176
+    },
+    {
+      "path": "data/hazelnut/test/good/039.png",
+      "label": 0,
+      "anomaly_score": 5.055098056793213
+    },
+    {
+      "path": "data/hazelnut/test/hole/000.png",
+      "label": 1,
+      "anomaly_score": 6.674195289611816
+    },
+    {
+      "path": "data/hazelnut/test/hole/001.png",
+      "label": 1,
+      "anomaly_score": 6.817107677459717
+    },
+    {
+      "path": "data/hazelnut/test/hole/002.png",
+      "label": 1,
+      "anomaly_score": 7.235712051391602
+    },
+    {
+      "path": "data/hazelnut/test/hole/003.png",
+      "label": 1,
+      "anomaly_score": 7.127407073974609
+    },
+    {
+      "path": "data/hazelnut/test/hole/004.png",
+      "label": 1,
+      "anomaly_score": 6.471959114074707
+    },
+    {
+      "path": "data/hazelnut/test/hole/005.png",
+      "label": 1,
+      "anomaly_score": 6.021695137023926
+    },
+    {
+      "path": "data/hazelnut/test/hole/006.png",
+      "label": 1,
+      "anomaly_score": 6.484571933746338
+    },
+    {
+      "path": "data/hazelnut/test/hole/007.png",
+      "label": 1,
+      "anomaly_score": 8.99239444732666
+    },
+    {
+      "path": "data/hazelnut/test/hole/008.png",
+      "label": 1,
+      "anomaly_score": 6.632115364074707
+    },
+    {
+      "path": "data/hazelnut/test/hole/009.png",
+      "label": 1,
+      "anomaly_score": 6.598346710205078
+    },
+    {
+      "path": "data/hazelnut/test/hole/010.png",
+      "label": 1,
+      "anomaly_score": 6.778072357177734
+    },
+    {
+      "path": "data/hazelnut/test/hole/011.png",
+      "label": 1,
+      "anomaly_score": 6.832448959350586
+    },
+    {
+      "path": "data/hazelnut/test/hole/012.png",
+      "label": 1,
+      "anomaly_score": 6.380839824676514
+    },
+    {
+      "path": "data/hazelnut/test/hole/013.png",
+      "label": 1,
+      "anomaly_score": 6.164416313171387
+    },
+    {
+      "path": "data/hazelnut/test/hole/014.png",
+      "label": 1,
+      "anomaly_score": 6.4903669357299805
+    },
+    {
+      "path": "data/hazelnut/test/hole/015.png",
+      "label": 1,
+      "anomaly_score": 6.271062850952148
+    },
+    {
+      "path": "data/hazelnut/test/hole/016.png",
+      "label": 1,
+      "anomaly_score": 5.600527763366699
+    },
+    {
+      "path": "data/hazelnut/test/hole/017.png",
+      "label": 1,
+      "anomaly_score": 6.128045558929443
+    },
+    {
+      "path": "data/hazelnut/test/print/000.png",
+      "label": 1,
+      "anomaly_score": 6.853456497192383
+    },
+    {
+      "path": "data/hazelnut/test/print/001.png",
+      "label": 1,
+      "anomaly_score": 6.278488636016846
+    },
+    {
+      "path": "data/hazelnut/test/print/002.png",
+      "label": 1,
+      "anomaly_score": 6.8495073318481445
+    },
+    {
+      "path": "data/hazelnut/test/print/003.png",
+      "label": 1,
+      "anomaly_score": 5.5751776695251465
+    },
+    {
+      "path": "data/hazelnut/test/print/004.png",
+      "label": 1,
+      "anomaly_score": 5.93077278137207
+    },
+    {
+      "path": "data/hazelnut/test/print/005.png",
+      "label": 1,
+      "anomaly_score": 6.413200378417969
+    },
+    {
+      "path": "data/hazelnut/test/print/006.png",
+      "label": 1,
+      "anomaly_score": 6.647091388702393
+    },
+    {
+      "path": "data/hazelnut/test/print/007.png",
+      "label": 1,
+      "anomaly_score": 6.134488105773926
+    },
+    {
+      "path": "data/hazelnut/test/print/008.png",
+      "label": 1,
+      "anomaly_score": 8.08400821685791
+    },
+    {
+      "path": "data/hazelnut/test/print/009.png",
+      "label": 1,
+      "anomaly_score": 6.4360222816467285
+    },
+    {
+      "path": "data/hazelnut/test/print/010.png",
+      "label": 1,
+      "anomaly_score": 6.346642017364502
+    },
+    {
+      "path": "data/hazelnut/test/print/011.png",
+      "label": 1,
+      "anomaly_score": 5.879652976989746
+    },
+    {
+      "path": "data/hazelnut/test/print/012.png",
+      "label": 1,
+      "anomaly_score": 6.780533790588379
+    },
+    {
+      "path": "data/hazelnut/test/print/013.png",
+      "label": 1,
+      "anomaly_score": 5.608682155609131
+    },
+    {
+      "path": "data/hazelnut/test/print/014.png",
+      "label": 1,
+      "anomaly_score": 5.86763858795166
+    },
+    {
+      "path": "data/hazelnut/test/print/015.png",
+      "label": 1,
+      "anomaly_score": 5.714400291442871
+    },
+    {
+      "path": "data/hazelnut/test/print/016.png",
+      "label": 1,
+      "anomaly_score": 5.696263790130615
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "category": "carpet",
+  "model": "WideResNet50_2",
+  "method": "PatchCore-style random memory baseline",
+  "image_size": 224,
+  "seed": 42,
+  "train_count": 224,
+  "validation_count": 56,
+  "test_count": 117,
+  "memory_size": 1024,
+  "validation_threshold": 4.272141933441163,
+  "test_auroc": 0.9803370786516853,
+  "test_samples": [
+    {
+      "path": "data/carpet/test/color/000.png",
+      "label": 1,
+      "anomaly_score": 4.789571285247803
+    },
+    {
+      "path": "data/carpet/test/color/001.png",
+      "label": 1,
+      "anomaly_score": 5.2681498527526855
+    },
+    {
+      "path": "data/carpet/test/color/002.png",
+      "label": 1,
+      "anomaly_score": 4.205531120300293
+    },
+    {
+      "path": "data/carpet/test/color/003.png",
+      "label": 1,
+      "anomaly_score": 5.140496730804443
+    },
+    {
+      "path": "data/carpet/test/color/004.png",
+      "label": 1,
+      "anomaly_score": 5.214247703552246
+    },
+    {
+      "path": "data/carpet/test/color/005.png",
+      "label": 1,
+      "anomaly_score": 4.38734245300293
+    },
+    {
+      "path": "data/carpet/test/color/006.png",
+      "label": 1,
+      "anomaly_score": 4.581802845001221
+    },
+    {
+      "path": "data/carpet/test/color/007.png",
+      "label": 1,
+      "anomaly_score": 5.314600944519043
+    },
+    {
+      "path": "data/carpet/test/color/008.png",
+      "label": 1,
+      "anomaly_score": 5.233437538146973
+    },
+    {
+      "path": "data/carpet/test/color/009.png",
+      "label": 1,
+      "anomaly_score": 4.392240047454834
+    },
+    {
+      "path": "data/carpet/test/color/010.png",
+      "label": 1,
+      "anomaly_score": 4.737287998199463
+    },
+    {
+      "path": "data/carpet/test/color/011.png",
+      "label": 1,
+      "anomaly_score": 5.3594441413879395
+    },
+    {
+      "path": "data/carpet/test/color/012.png",
+      "label": 1,
+      "anomaly_score": 5.017158508300781
+    },
+    {
+      "path": "data/carpet/test/color/013.png",
+      "label": 1,
+      "anomaly_score": 5.032001495361328
+    },
+    {
+      "path": "data/carpet/test/color/014.png",
+      "label": 1,
+      "anomaly_score": 5.0773115158081055
+    },
+    {
+      "path": "data/carpet/test/color/015.png",
+      "label": 1,
+      "anomaly_score": 5.624914169311523
+    },
+    {
+      "path": "data/carpet/test/color/016.png",
+      "label": 1,
+      "anomaly_score": 3.956636905670166
+    },
+    {
+      "path": "data/carpet/test/color/017.png",
+      "label": 1,
+      "anomaly_score": 4.627789497375488
+    },
+    {
+      "path": "data/carpet/test/color/018.png",
+      "label": 1,
+      "anomaly_score": 5.573898792266846
+    },
+    {
+      "path": "data/carpet/test/cut/000.png",
+      "label": 1,
+      "anomaly_score": 5.222687721252441
+    },
+    {
+      "path": "data/carpet/test/cut/001.png",
+      "label": 1,
+      "anomaly_score": 5.280883312225342
+    },
+    {
+      "path": "data/carpet/test/cut/002.png",
+      "label": 1,
+      "anomaly_score": 5.502420425415039
+    },
+    {
+      "path": "data/carpet/test/cut/003.png",
+      "label": 1,
+      "anomaly_score": 5.599865913391113
+    },
+    {
+      "path": "data/carpet/test/cut/004.png",
+      "label": 1,
+      "anomaly_score": 4.285417556762695
+    },
+    {
+      "path": "data/carpet/test/cut/005.png",
+      "label": 1,
+      "anomaly_score": 4.758372783660889
+    },
+    {
+      "path": "data/carpet/test/cut/006.png",
+      "label": 1,
+      "anomaly_score": 5.450610160827637
+    },
+    {
+      "path": "data/carpet/test/cut/007.png",
+      "label": 1,
+      "anomaly_score": 4.853388786315918
+    },
+    {
+      "path": "data/carpet/test/cut/008.png",
+      "label": 1,
+      "anomaly_score": 4.115053176879883
+    },
+    {
+      "path": "data/carpet/test/cut/009.png",
+      "label": 1,
+      "anomaly_score": 5.0354390144348145
+    },
+    {
+      "path": "data/carpet/test/cut/010.png",
+      "label": 1,
+      "anomaly_score": 4.727732181549072
+    },
+    {
+      "path": "data/carpet/test/cut/011.png",
+      "label": 1,
+      "anomaly_score": 5.331050395965576
+    },
+    {
+      "path": "data/carpet/test/cut/012.png",
+      "label": 1,
+      "anomaly_score": 5.495976448059082
+    },
+    {
+      "path": "data/carpet/test/cut/013.png",
+      "label": 1,
+      "anomaly_score": 4.9177045822143555
+    },
+    {
+      "path": "data/carpet/test/cut/014.png",
+      "label": 1,
+      "anomaly_score": 4.693080902099609
+    },
+    {
+      "path": "data/carpet/test/cut/015.png",
+      "label": 1,
+      "anomaly_score": 5.5305938720703125
+    },
+    {
+      "path": "data/carpet/test/cut/016.png",
+      "label": 1,
+      "anomaly_score": 4.544093132019043
+    },
+    {
+      "path": "data/carpet/test/good/000.png",
+      "label": 0,
+      "anomaly_score": 3.553398847579956
+    },
+    {
+      "path": "data/carpet/test/good/001.png",
+      "label": 0,
+      "anomaly_score": 3.3111822605133057
+    },
+    {
+      "path": "data/carpet/test/good/002.png",
+      "label": 0,
+      "anomaly_score": 3.4349594116210938
+    },
+    {
+      "path": "data/carpet/test/good/003.png",
+      "label": 0,
+      "anomaly_score": 3.7251169681549072
+    },
+    {
+      "path": "data/carpet/test/good/004.png",
+      "label": 0,
+      "anomaly_score": 3.6348490715026855
+    },
+    {
+      "path": "data/carpet/test/good/005.png",
+      "label": 0,
+      "anomaly_score": 3.424978733062744
+    },
+    {
+      "path": "data/carpet/test/good/006.png",
+      "label": 0,
+      "anomaly_score": 3.5799293518066406
+    },
+    {
+      "path": "data/carpet/test/good/007.png",
+      "label": 0,
+      "anomaly_score": 3.5463695526123047
+    },
+    {
+      "path": "data/carpet/test/good/008.png",
+      "label": 0,
+      "anomaly_score": 4.221714019775391
+    },
+    {
+      "path": "data/carpet/test/good/009.png",
+      "label": 0,
+      "anomaly_score": 3.641746997833252
+    },
+    {
+      "path": "data/carpet/test/good/010.png",
+      "label": 0,
+      "anomaly_score": 3.35567569732666
+    },
+    {
+      "path": "data/carpet/test/good/011.png",
+      "label": 0,
+      "anomaly_score": 3.350912570953369
+    },
+    {
+      "path": "data/carpet/test/good/012.png",
+      "label": 0,
+      "anomaly_score": 3.478917121887207
+    },
+    {
+      "path": "data/carpet/test/good/013.png",
+      "label": 0,
+      "anomaly_score": 3.812613010406494
+    },
+    {
+      "path": "data/carpet/test/good/014.png",
+      "label": 0,
+      "anomaly_score": 3.8509559631347656
+    },
+    {
+      "path": "data/carpet/test/good/015.png",
+      "label": 0,
+      "anomaly_score": 3.9052016735076904
+    },
+    {
+      "path": "data/carpet/test/good/016.png",
+      "label": 0,
+      "anomaly_score": 3.554966926574707
+    },
+    {
+      "path": "data/carpet/test/good/017.png",
+      "label": 0,
+      "anomaly_score": 3.292006015777588
+    },
+    {
+      "path": "data/carpet/test/good/018.png",
+      "label": 0,
+      "anomaly_score": 3.890117883682251
+    },
+    {
+      "path": "data/carpet/test/good/019.png",
+      "label": 0,
+      "anomaly_score": 3.968287229537964
+    },
+    {
+      "path": "data/carpet/test/good/020.png",
+      "label": 0,
+      "anomaly_score": 3.3444573879241943
+    },
+    {
+      "path": "data/carpet/test/good/021.png",
+      "label": 0,
+      "anomaly_score": 3.78262996673584
+    },
+    {
+      "path": "data/carpet/test/good/022.png",
+      "label": 0,
+      "anomaly_score": 3.7909340858459473
+    },
+    {
+      "path": "data/carpet/test/good/023.png",
+      "label": 0,
+      "anomaly_score": 3.5489237308502197
+    },
+    {
+      "path": "data/carpet/test/good/024.png",
+      "label": 0,
+      "anomaly_score": 3.7193055152893066
+    },
+    {
+      "path": "data/carpet/test/good/025.png",
+      "label": 0,
+      "anomaly_score": 3.5767176151275635
+    },
+    {
+      "path": "data/carpet/test/good/026.png",
+      "label": 0,
+      "anomaly_score": 3.5261242389678955
+    },
+    {
+      "path": "data/carpet/test/good/027.png",
+      "label": 0,
+      "anomaly_score": 3.526097297668457
+    },
+    {
+      "path": "data/carpet/test/hole/000.png",
+      "label": 1,
+      "anomaly_score": 4.840190887451172
+    },
+    {
+      "path": "data/carpet/test/hole/001.png",
+      "label": 1,
+      "anomaly_score": 4.41752815246582
+    },
+    {
+      "path": "data/carpet/test/hole/002.png",
+      "label": 1,
+      "anomaly_score": 3.933091402053833
+    },
+    {
+      "path": "data/carpet/test/hole/003.png",
+      "label": 1,
+      "anomaly_score": 5.058424949645996
+    },
+    {
+      "path": "data/carpet/test/hole/004.png",
+      "label": 1,
+      "anomaly_score": 5.115730285644531
+    },
+    {
+      "path": "data/carpet/test/hole/005.png",
+      "label": 1,
+      "anomaly_score": 4.858140468597412
+    },
+    {
+      "path": "data/carpet/test/hole/006.png",
+      "label": 1,
+      "anomaly_score": 5.8527727127075195
+    },
+    {
+      "path": "data/carpet/test/hole/007.png",
+      "label": 1,
+      "anomaly_score": 5.76323127746582
+    },
+    {
+      "path": "data/carpet/test/hole/008.png",
+      "label": 1,
+      "anomaly_score": 5.488924503326416
+    },
+    {
+      "path": "data/carpet/test/hole/009.png",
+      "label": 1,
+      "anomaly_score": 5.05035924911499
+    },
+    {
+      "path": "data/carpet/test/hole/010.png",
+      "label": 1,
+      "anomaly_score": 5.935494422912598
+    },
+    {
+      "path": "data/carpet/test/hole/011.png",
+      "label": 1,
+      "anomaly_score": 5.358553886413574
+    },
+    {
+      "path": "data/carpet/test/hole/012.png",
+      "label": 1,
+      "anomaly_score": 4.663857936859131
+    },
+    {
+      "path": "data/carpet/test/hole/013.png",
+      "label": 1,
+      "anomaly_score": 5.448531150817871
+    },
+    {
+      "path": "data/carpet/test/hole/014.png",
+      "label": 1,
+      "anomaly_score": 6.10936975479126
+    },
+    {
+      "path": "data/carpet/test/hole/015.png",
+      "label": 1,
+      "anomaly_score": 5.018849849700928
+    },
+    {
+      "path": "data/carpet/test/hole/016.png",
+      "label": 1,
+      "anomaly_score": 5.233860969543457
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/000.png",
+      "label": 1,
+      "anomaly_score": 4.502429485321045
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/001.png",
+      "label": 1,
+      "anomaly_score": 3.6311802864074707
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/002.png",
+      "label": 1,
+      "anomaly_score": 4.379024982452393
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/003.png",
+      "label": 1,
+      "anomaly_score": 5.1785993576049805
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/004.png",
+      "label": 1,
+      "anomaly_score": 4.793150901794434
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/005.png",
+      "label": 1,
+      "anomaly_score": 5.128920078277588
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/006.png",
+      "label": 1,
+      "anomaly_score": 5.334131240844727
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/007.png",
+      "label": 1,
+      "anomaly_score": 4.977324962615967
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/008.png",
+      "label": 1,
+      "anomaly_score": 5.389021873474121
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/009.png",
+      "label": 1,
+      "anomaly_score": 4.392580509185791
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/010.png",
+      "label": 1,
+      "anomaly_score": 5.082995891571045
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/011.png",
+      "label": 1,
+      "anomaly_score": 5.282486438751221
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/012.png",
+      "label": 1,
+      "anomaly_score": 4.184199810028076
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/013.png",
+      "label": 1,
+      "anomaly_score": 6.257340908050537
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/014.png",
+      "label": 1,
+      "anomaly_score": 4.079545021057129
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/015.png",
+      "label": 1,
+      "anomaly_score": 4.992105960845947
+    },
+    {
+      "path": "data/carpet/test/metal_contamination/016.png",
+      "label": 1,
+      "anomaly_score": 3.752145290374756
+    },
+    {
+      "path": "data/carpet/test/thread/000.png",
+      "label": 1,
+      "anomaly_score": 5.600338459014893
+    },
+    {
+      "path": "data/carpet/test/thread/001.png",
+      "label": 1,
+      "anomaly_score": 4.000345230102539
+    },
+    {
+      "path": "data/carpet/test/thread/002.png",
+      "label": 1,
+      "anomaly_score": 4.9819746017456055
+    },
+    {
+      "path": "data/carpet/test/thread/003.png",
+      "label": 1,
+      "anomaly_score": 4.976635456085205
+    },
+    {
+      "path": "data/carpet/test/thread/004.png",
+      "label": 1,
+      "anomaly_score": 4.673184394836426
+    },
+    {
+      "path": "data/carpet/test/thread/005.png",
+      "label": 1,
+      "anomaly_score": 6.288280963897705
+    },
+    {
+      "path": "data/carpet/test/thread/006.png",
+      "label": 1,
+      "anomaly_score": 5.28054666519165
+    },
+    {
+      "path": "data/carpet/test/thread/007.png",
+      "label": 1,
+      "anomaly_score": 4.8935418128967285
+    },
+    {
+      "path": "data/carpet/test/thread/008.png",
+      "label": 1,
+      "anomaly_score": 5.894906997680664
+    },
+    {
+      "path": "data/carpet/test/thread/009.png",
+      "label": 1,
+      "anomaly_score": 3.8255302906036377
+    },
+    {
+      "path": "data/carpet/test/thread/010.png",
+      "label": 1,
+      "anomaly_score": 5.4540629386901855
+    },
+    {
+      "path": "data/carpet/test/thread/011.png",
+      "label": 1,
+      "anomaly_score": 5.062173843383789
+    },
+    {
+      "path": "data/carpet/test/thread/012.png",
+      "label": 1,
+      "anomaly_score": 5.779314994812012
+    },
+    {
+      "path": "data/carpet/test/thread/013.png",
+      "label": 1,
+      "anomaly_score": 5.220488548278809
+    },
+    {
+      "path": "data/carpet/test/thread/014.png",
+      "label": 1,
+      "anomaly_score": 4.24022912979126
+    },
+    {
+      "path": "data/carpet/test/thread/015.png",
+      "label": 1,
+      "anomaly_score": 3.589324712753296
+    },
+    {
+      "path": "data/carpet/test/thread/016.png",
+      "label": 1,
+      "anomaly_score": 4.862405300140381
+    },
+    {
+      "path": "data/carpet/test/thread/017.png",
+      "label": 1,
+      "anomaly_score": 5.837475776672363
+    },
+    {
+      "path": "data/carpet/test/thread/018.png",
+      "label": 1,
+      "anomaly_score": 3.8973305225372314
+    }
+  ]
+}

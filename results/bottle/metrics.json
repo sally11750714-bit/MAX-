@@ -1,0 +1,430 @@
+{
+  "category": "bottle",
+  "model": "WideResNet50_2",
+  "method": "PatchCore-style random memory baseline",
+  "image_size": 224,
+  "seed": 42,
+  "train_count": 167,
+  "validation_count": 42,
+  "test_count": 83,
+  "memory_size": 1024,
+  "validation_threshold": 4.93790102005005,
+  "test_auroc": 0.9857142857142855,
+  "test_samples": [
+    {
+      "path": "data/bottle/test/broken_large/000.png",
+      "label": 1,
+      "anomaly_score": 6.010610580444336
+    },
+    {
+      "path": "data/bottle/test/broken_large/001.png",
+      "label": 1,
+      "anomaly_score": 6.221564292907715
+    },
+    {
+      "path": "data/bottle/test/broken_large/002.png",
+      "label": 1,
+      "anomaly_score": 5.8149919509887695
+    },
+    {
+      "path": "data/bottle/test/broken_large/003.png",
+      "label": 1,
+      "anomaly_score": 5.924435138702393
+    },
+    {
+      "path": "data/bottle/test/broken_large/004.png",
+      "label": 1,
+      "anomaly_score": 6.424788475036621
+    },
+    {
+      "path": "data/bottle/test/broken_large/005.png",
+      "label": 1,
+      "anomaly_score": 5.769585609436035
+    },
+    {
+      "path": "data/bottle/test/broken_large/006.png",
+      "label": 1,
+      "anomaly_score": 6.292022705078125
+    },
+    {
+      "path": "data/bottle/test/broken_large/007.png",
+      "label": 1,
+      "anomaly_score": 5.710140705108643
+    },
+    {
+      "path": "data/bottle/test/broken_large/008.png",
+      "label": 1,
+      "anomaly_score": 6.279854774475098
+    },
+    {
+      "path": "data/bottle/test/broken_large/009.png",
+      "label": 1,
+      "anomaly_score": 5.880578994750977
+    },
+    {
+      "path": "data/bottle/test/broken_large/010.png",
+      "label": 1,
+      "anomaly_score": 6.31204080581665
+    },
+    {
+      "path": "data/bottle/test/broken_large/011.png",
+      "label": 1,
+      "anomaly_score": 6.307577133178711
+    },
+    {
+      "path": "data/bottle/test/broken_large/012.png",
+      "label": 1,
+      "anomaly_score": 6.285663604736328
+    },
+    {
+      "path": "data/bottle/test/broken_large/013.png",
+      "label": 1,
+      "anomaly_score": 5.9409098625183105
+    },
+    {
+      "path": "data/bottle/test/broken_large/014.png",
+      "label": 1,
+      "anomaly_score": 6.301154136657715
+    },
+    {
+      "path": "data/bottle/test/broken_large/015.png",
+      "label": 1,
+      "anomaly_score": 6.132095813751221
+    },
+    {
+      "path": "data/bottle/test/broken_large/016.png",
+      "label": 1,
+      "anomaly_score": 6.206811428070068
+    },
+    {
+      "path": "data/bottle/test/broken_large/017.png",
+      "label": 1,
+      "anomaly_score": 6.3347344398498535
+    },
+    {
+      "path": "data/bottle/test/broken_large/018.png",
+      "label": 1,
+      "anomaly_score": 6.036848068237305
+    },
+    {
+      "path": "data/bottle/test/broken_large/019.png",
+      "label": 1,
+      "anomaly_score": 5.763129711151123
+    },
+    {
+      "path": "data/bottle/test/broken_small/000.png",
+      "label": 1,
+      "anomaly_score": 5.569337368011475
+    },
+    {
+      "path": "data/bottle/test/broken_small/001.png",
+      "label": 1,
+      "anomaly_score": 6.452198028564453
+    },
+    {
+      "path": "data/bottle/test/broken_small/002.png",
+      "label": 1,
+      "anomaly_score": 6.047659873962402
+    },
+    {
+      "path": "data/bottle/test/broken_small/003.png",
+      "label": 1,
+      "anomaly_score": 6.081114292144775
+    },
+    {
+      "path": "data/bottle/test/broken_small/004.png",
+      "label": 1,
+      "anomaly_score": 6.503585338592529
+    },
+    {
+      "path": "data/bottle/test/broken_small/005.png",
+      "label": 1,
+      "anomaly_score": 5.429287910461426
+    },
+    {
+      "path": "data/bottle/test/broken_small/006.png",
+      "label": 1,
+      "anomaly_score": 6.101015090942383
+    },
+    {
+      "path": "data/bottle/test/broken_small/007.png",
+      "label": 1,
+      "anomaly_score": 5.73416805267334
+    },
+    {
+      "path": "data/bottle/test/broken_small/008.png",
+      "label": 1,
+      "anomaly_score": 5.528572082519531
+    },
+    {
+      "path": "data/bottle/test/broken_small/009.png",
+      "label": 1,
+      "anomaly_score": 6.055530548095703
+    },
+    {
+      "path": "data/bottle/test/broken_small/010.png",
+      "label": 1,
+      "anomaly_score": 6.326706409454346
+    },
+    {
+      "path": "data/bottle/test/broken_small/011.png",
+      "label": 1,
+      "anomaly_score": 5.988829612731934
+    },
+    {
+      "path": "data/bottle/test/broken_small/012.png",
+      "label": 1,
+      "anomaly_score": 6.2272772789001465
+    },
+    {
+      "path": "data/bottle/test/broken_small/013.png",
+      "label": 1,
+      "anomaly_score": 5.4685378074646
+    },
+    {
+      "path": "data/bottle/test/broken_small/014.png",
+      "label": 1,
+      "anomaly_score": 6.020235061645508
+    },
+    {
+      "path": "data/bottle/test/broken_small/015.png",
+      "label": 1,
+      "anomaly_score": 5.206987380981445
+    },
+    {
+      "path": "data/bottle/test/broken_small/016.png",
+      "label": 1,
+      "anomaly_score": 5.883617877960205
+    },
+    {
+      "path": "data/bottle/test/broken_small/017.png",
+      "label": 1,
+      "anomaly_score": 6.47298526763916
+    },
+    {
+      "path": "data/bottle/test/broken_small/018.png",
+      "label": 1,
+      "anomaly_score": 6.3175249099731445
+    },
+    {
+      "path": "data/bottle/test/broken_small/019.png",
+      "label": 1,
+      "anomaly_score": 6.142541885375977
+    },
+    {
+      "path": "data/bottle/test/broken_small/020.png",
+      "label": 1,
+      "anomaly_score": 6.188074111938477
+    },
+    {
+      "path": "data/bottle/test/broken_small/021.png",
+      "label": 1,
+      "anomaly_score": 6.163303375244141
+    },
+    {
+      "path": "data/bottle/test/contamination/000.png",
+      "label": 1,
+      "anomaly_score": 5.028003215789795
+    },
+    {
+      "path": "data/bottle/test/contamination/001.png",
+      "label": 1,
+      "anomaly_score": 5.5193586349487305
+    },
+    {
+      "path": "data/bottle/test/contamination/002.png",
+      "label": 1,
+      "anomaly_score": 5.245582103729248
+    },
+    {
+      "path": "data/bottle/test/contamination/003.png",
+      "label": 1,
+      "anomaly_score": 4.78071928024292
+    },
+    {
+      "path": "data/bottle/test/contamination/004.png",
+      "label": 1,
+      "anomaly_score": 5.152455806732178
+    },
+    {
+      "path": "data/bottle/test/contamination/005.png",
+      "label": 1,
+      "anomaly_score": 5.719793796539307
+    },
+    {
+      "path": "data/bottle/test/contamination/006.png",
+      "label": 1,
+      "anomaly_score": 4.976129531860352
+    },
+    {
+      "path": "data/bottle/test/contamination/007.png",
+      "label": 1,
+      "anomaly_score": 6.751290321350098
+    },
+    {
+      "path": "data/bottle/test/contamination/008.png",
+      "label": 1,
+      "anomaly_score": 5.861200332641602
+    },
+    {
+      "path": "data/bottle/test/contamination/009.png",
+      "label": 1,
+      "anomaly_score": 5.740640163421631
+    },
+    {
+      "path": "data/bottle/test/contamination/010.png",
+      "label": 1,
+      "anomaly_score": 6.1114020347595215
+    },
+    {
+      "path": "data/bottle/test/contamination/011.png",
+      "label": 1,
+      "anomaly_score": 5.523012161254883
+    },
+    {
+      "path": "data/bottle/test/contamination/012.png",
+      "label": 1,
+      "anomaly_score": 4.084506511688232
+    },
+    {
+      "path": "data/bottle/test/contamination/013.png",
+      "label": 1,
+      "anomaly_score": 6.200544357299805
+    },
+    {
+      "path": "data/bottle/test/contamination/014.png",
+      "label": 1,
+      "anomaly_score": 8.33857536315918
+    },
+    {
+      "path": "data/bottle/test/contamination/015.png",
+      "label": 1,
+      "anomaly_score": 5.810792446136475
+    },
+    {
+      "path": "data/bottle/test/contamination/016.png",
+      "label": 1,
+      "anomaly_score": 4.918259620666504
+    },
+    {
+      "path": "data/bottle/test/contamination/017.png",
+      "label": 1,
+      "anomaly_score": 6.127130031585693
+    },
+    {
+      "path": "data/bottle/test/contamination/018.png",
+      "label": 1,
+      "anomaly_score": 6.675357818603516
+    },
+    {
+      "path": "data/bottle/test/contamination/019.png",
+      "label": 1,
+      "anomaly_score": 5.126911163330078
+    },
+    {
+      "path": "data/bottle/test/contamination/020.png",
+      "label": 1,
+      "anomaly_score": 4.897937297821045
+    },
+    {
+      "path": "data/bottle/test/good/000.png",
+      "label": 0,
+      "anomaly_score": 3.960181474685669
+    },
+    {
+      "path": "data/bottle/test/good/001.png",
+      "label": 0,
+      "anomaly_score": 4.129279613494873
+    },
+    {
+      "path": "data/bottle/test/good/002.png",
+      "label": 0,
+      "anomaly_score": 4.285799026489258
+    },
+    {
+      "path": "data/bottle/test/good/003.png",
+      "label": 0,
+      "anomaly_score": 4.180558681488037
+    },
+    {
+      "path": "data/bottle/test/good/004.png",
+      "label": 0,
+      "anomaly_score": 4.025091171264648
+    },
+    {
+      "path": "data/bottle/test/good/005.png",
+      "label": 0,
+      "anomaly_score": 4.260165214538574
+    },
+    {
+      "path": "data/bottle/test/good/006.png",
+      "label": 0,
+      "anomaly_score": 5.0057373046875
+    },
+    {
+      "path": "data/bottle/test/good/007.png",
+      "label": 0,
+      "anomaly_score": 4.242086410522461
+    },
+    {
+      "path": "data/bottle/test/good/008.png",
+      "label": 0,
+      "anomaly_score": 3.9025070667266846
+    },
+    {
+      "path": "data/bottle/test/good/009.png",
+      "label": 0,
+      "anomaly_score": 4.712611675262451
+    },
+    {
+      "path": "data/bottle/test/good/010.png",
+      "label": 0,
+      "anomaly_score": 4.528486728668213
+    },
+    {
+      "path": "data/bottle/test/good/011.png",
+      "label": 0,
+      "anomaly_score": 4.096408367156982
+    },
+    {
+      "path": "data/bottle/test/good/012.png",
+      "label": 0,
+      "anomaly_score": 4.196771621704102
+    },
+    {
+      "path": "data/bottle/test/good/013.png",
+      "label": 0,
+      "anomaly_score": 3.9775187969207764
+    },
+    {
+      "path": "data/bottle/test/good/014.png",
+      "label": 0,
+      "anomaly_score": 4.220394611358643
+    },
+    {
+      "path": "data/bottle/test/good/015.png",
+      "label": 0,
+      "anomaly_score": 4.451189041137695
+    },
+    {
+      "path": "data/bottle/test/good/016.png",
+      "label": 0,
+      "anomaly_score": 4.1973795890808105
+    },
+    {
+      "path": "data/bottle/test/good/017.png",
+      "label": 0,
+      "anomaly_score": 3.7181761264801025
+    },
+    {
+      "path": "data/bottle/test/good/018.png",
+      "label": 0,
+      "anomaly_score": 4.05297327041626
+    },
+    {
+      "path": "data/bottle/test/good/019.png",
+      "label": 0,
+      "anomaly_score": 4.379356384277344
+    }
+  ]
+}
